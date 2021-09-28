@@ -25,6 +25,7 @@ body {
 h3 {
     color: #428bff;
     font-size: 14px;
+    font-weight:bolder;
 }
 p {
     font-size: 14px;
@@ -329,7 +330,17 @@ p {
 
 /* Solid border */
 .solid_line {
-  border-top: 2px solid rgb(194, 194, 194);
+  padding-top: 20px;
+  padding-bottom: 0px;
+  border-top: 1px solid rgb(194, 194, 194);
+
 }
+
+a {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: red;
+}
+
 
 
