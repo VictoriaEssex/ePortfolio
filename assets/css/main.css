@@ -334,9 +334,10 @@ input, select, textarea {
 	margin-top: 1px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
+	
   }
   .card__content {
-	margin-top: -3.5rem;
+	margin-top: -4.5rem;
 	opacity: 0;
 	animation: ContentFadeIn 0.8s 1.6s forwards;
   }
