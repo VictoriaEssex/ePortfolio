@@ -9,7 +9,7 @@ html {
   height: 100%;
 }
 body {
-  background: #efefef;
+  background:#20272C;
   color: #333;
   font-family: "Raleway";
   height: 100vh;
@@ -192,7 +192,7 @@ p {
   > li:nth-child(2)
   > label {
   cursor: default;
-  color: #428bff;
+  color: teal;
 }
 .tabs
   input[name="tab-control"]:nth-of-type(2):checked
@@ -200,7 +200,7 @@ p {
   > li:nth-child(2)
   > label
   svg {
-  fill: #428bff;
+  fill: teal;
 }
 @media (max-width: 600px) {
   .tabs
@@ -226,7 +226,7 @@ p {
   > li:nth-child(3)
   > label {
   cursor: default;
-  color: #428bff;
+  color: teal;
 }
 .tabs
   input[name="tab-control"]:nth-of-type(3):checked
@@ -234,7 +234,7 @@ p {
   > li:nth-child(3)
   > label
   svg {
-  fill: #428bff;
+  fill: teal;
 }
 @media (max-width: 600px) {
   .tabs
@@ -260,7 +260,7 @@ p {
   > li:nth-child(4)
   > label {
   cursor: default;
-  color: #428bff;
+  color: teal;
 }
 .tabs
   input[name="tab-control"]:nth-of-type(4):checked
@@ -268,7 +268,7 @@ p {
   > li:nth-child(4)
   > label
   svg {
-  fill: #428bff;
+  fill:teal;
 }
 @media (max-width: 600px) {
   .tabs
@@ -328,16 +328,34 @@ p {
   }
 }
 
+
+
 .learn_more {
+  display: inline;
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 14px;
-  color: purple;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px turquoise, 0 0 5px teal;
 }
+
+details[open] > summary {
+display: none;
+}
+
+details[open]:after {
+  content: ""
+}
+
+#Collapse {
+  color: teal;
+  text-shadow: 1px 1px 2px black, 0 0 25px turquoise, 0 0 5px teal;
+}
+
 
 /* Solid border */
 .solid_line {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 0px;
   border-top: 1px solid rgb(194, 194, 194);
 
