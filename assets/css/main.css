@@ -178,7 +178,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		color: #888bff;
+		color: #F59093;
 		font-size: 1.35em;
 		line-height: 1.75em;
 		font-weight: 600;
@@ -313,7 +313,7 @@ input, select, textarea {
   }
   
   .card {
-	position: relative;
+	position:relative;
 	background: #333;
 	width: 300px;
 	height: 400px;
@@ -350,7 +350,7 @@ input, select, textarea {
   .card__svg {
 	position: absolute;
 	left: 0;
-	top: 60px;
+	top: 80px;
   }
 
   .essex-card-container {
@@ -2950,7 +2950,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #30B6AD;
 			color: #c8ece9;
 		}
 
@@ -2975,7 +2975,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header p {
-				color: #a6e0db;
+				color: ;
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
@@ -2983,7 +2983,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: white;
 			}
 
 			.wrapper.style1 label {
@@ -3765,7 +3765,7 @@ input, select, textarea {
 		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
-			color:teal;
+			color: white;
 		}
 
 			#banner p a {
