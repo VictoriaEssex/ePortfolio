@@ -2950,8 +2950,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #30B6AD;
-			color: #c8ece9;
+			background-color: teal;
+			color: teal;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
