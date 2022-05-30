@@ -117,7 +117,7 @@
            <br> 9. Limit resource consumption by user or service
 <br> <br>
 
-      <img src="/images/UML-design.png" alt="Insecure Design">
+      <img src="images/UML-design.png" alt="Insecure Design">
 		
           </p>			
 		</p>
@@ -149,7 +149,7 @@
 			<summary class="learn_more">learn more</summary>
 			<span class= "learnMore"> 
             <p>
-		<img src="" alt="Class Diagram">
+		<img src="" alt="Scrum Security Review">
         </p>
 		
         </span> 
@@ -217,8 +217,8 @@
 			<summary class="learn_more">learn more</summary>
 			<span class= "learnMore"> 
             <p>
-         <img  width=600px src="/images/Buffer Overflow.png" alt="Buffer Overflow">
-         <img  width=600px src="/images/Buffer Overflow Terminal.png" alt="Buffer Overflow">
+         <img  width=600px src="images/Buffer Overflow.png" alt="Buffer Overflow">
+         <img  width=600px src="images/Buffer Overflow Terminal.png" alt="Buffer Overflow">
         <br> <br>
         The above output message shows that their is a buffer overflow which has been detected. This is because the input, "VictoriaEssex" exceeds buffer capacity.
         The following C code cannot be compiled successfully because a name was entered that exceeds 10 or more characters. 
@@ -226,8 +226,8 @@
 
         <h4> Buffer Overflow in Python</h4>
         <br> 
-        <img  width=600px src="/images/Buffer Overflow Python.png" alt="Buffer Overflow">
-        <img  width=600px src="/images/Buffer overflow python terminal.png" alt="Buffer Overflow">
+        <img  width=600px src="images/Buffer Overflow Python.png" alt="Buffer Overflow">
+        <img  width=600px src="images/Buffer overflow python terminal.png" alt="Buffer Overflow">
         <br><br>
 
         <p> The following excercise involved running the above code and detecting errors. We were then encouraged to install and make use of pylint.
@@ -254,7 +254,11 @@
 		<hr class="solid_line">
 
         <h3>Programming language concepts </h3>
-        
+		<h4>What is ReDOS and what part do ‘Evil Regex’ play?</h4>
+		<p>ReDos stands for 'Regular Expression Denial of Service.' This "is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression (Regex) to enter these extreme situations and then hang for a very long time"
+		   (Weidman, 2022).
+		</p>
+		
 
 		
         <script>
@@ -267,8 +271,15 @@
 			<summary class="learn_more">learn more</summary>
 			<span class= "learnMore"> 
             <p>
-		<img src="" alt="Class Diagram">
-        </p>
+				<h4>What are the common problems associated with the use of regex? How can these be mitigated?</h4>
+				<p> The use of regular expressions allows coding to be easier but is also prone to error. In order to avoid making mistakes,
+					a developer can make use of ACRE, Automatic Checking of Regular Expressions (larson, 2018). This is a great debugger that can be used to 
+					scan your code and highlight errors.
+				</p>
+				<h4>How and why could regex be used as part of a security solution?</h4>
+				<p> Regular expressions used in python allow for efficiency and fast solutions. This is because tasks can be automated and you can search for content in code and identify it easily based on common expressions.
+				</p>
+
 		
         </span> 
         <span id="Collapse" onclick="closeDetail(this.parentElement)">▲</span>
@@ -288,7 +299,7 @@
 			<summary class="learn_more">learn more</summary>
 			<span class= "learnMore"> 
             <p>
-		<img src="" alt="Class Diagram">
+		<img src="" alt="Cyclomatic Complexity">
         </p>
 		
         </span> 
@@ -297,7 +308,9 @@
 		<hr class="solid_line">
 
         <h3> What is an Ontology? </h3>
-        <p></p>
+        <p>
+			In computer science ontology refers to a data model that is constructed of a set of ‘concepts within a domain and the interactions between those concepts.’
+			</p>
         <script>
 			function closeDetail(detailsElement) {
 				detailsElement.removeAttribute("open");
