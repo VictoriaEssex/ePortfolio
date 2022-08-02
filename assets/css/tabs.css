@@ -362,9 +362,12 @@ details[open]:after {
 }
 
 a {
-  font-family: "Montserrat";
+  font-family: cursive;
   font-size: 14px;
-  color: rgb(1, 45, 45);
+  color: #F6454A;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F6454A;
+  
 }
 
 
