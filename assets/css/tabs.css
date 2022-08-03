@@ -95,7 +95,7 @@ p {
   display: none;
 }
 .tabs ul li label svg {
-  fill: #929daf;
+  fill: white;
   height: 1.2em;
   vertical-align: bottom;
   margin-right: 0.2em;
@@ -110,7 +110,7 @@ p {
 .tabs ul li label:hover svg,
 .tabs ul li label:focus svg,
 .tabs ul li label:active svg {
-  fill: #bec5cf;
+  fill: white;
 }
 .tabs .slider {
   position: relative;
@@ -166,7 +166,7 @@ p {
   > li:nth-child(1)
   > label
   svg {
-  fill: teal;
+  fill: white;
 }
 @media (max-width: 600px) {
   .tabs
@@ -200,7 +200,7 @@ p {
   > li:nth-child(2)
   > label
   svg {
-  fill: teal;
+  fill: white;
 }
 @media (max-width: 600px) {
   .tabs
@@ -234,7 +234,7 @@ p {
   > li:nth-child(3)
   > label
   svg {
-  fill: teal;
+  fill: white;
 }
 @media (max-width: 600px) {
   .tabs
@@ -268,7 +268,7 @@ p {
   > li:nth-child(4)
   > label
   svg {
-  fill:teal;
+  fill:white;
 }
 @media (max-width: 600px) {
   .tabs
@@ -362,13 +362,16 @@ details[open]:after {
 }
 
 a {
-  font-family: cursive;
+  font-family: "Montserrat";
   font-size: 14px;
-  color: #F6454A;
-  -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #F6454A;
-  
+  color: white;
 }
 
-
+.link {
+  font-family: cursive;
+  color: #4A4D89;
+  font-size: 14px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #4A4D89;
+}
 
