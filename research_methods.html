@@ -330,10 +330,12 @@ ACM (n.d.) Code of Ethics: Case studies.
     </section>
     
 	<section>
-		<h3>Mid-Module Assignment: System Design </h3>
-		<h4>Rationale</h4>
-		<p>Unified Modeling Language (UML) aids in the maintenance of software, by visually representing the way in which the software will behave (Alsarraj, Altaie, Fadhil, 2021). UML visually displays the separation of components and their relationship to one another. Moreover, UML allows you to easily extract the necessary information during the debugging process and the maintenance of software. Overall, “UML is considered as one of the standard modelling notations that is utilized for representing software as graphical notations.  (Alsarraj, Altaie, Fadhil, 2021).
-        </p>
+		<h3>Literature Review </h3>
+		<h4>Implementing Machine Learning tools and/or techniques in: suspect profiling</h4>
+		<p>Introduction 
+
+            Suspect profiling is understood as the practice of identifying alleged preparators associated with criminal activity. Criminal profilers rely on numerous techniques to pinpoint offenders. Law enforcement recognises machine learning tools and extensive data analysis as a “reliable standard of evidence-based profiling”  (UCF online, 2022). Machine learning tools aid law enforcement by detecting patterns and behaviours  through data collection (Wired, 2018). Ultimately this leads to faster and more efficient suspect profiling. 
+        </p>    
 		<script>
 			function closeDetail(detailsElement) {
 				detailsElement.removeAttribute("open");
@@ -343,66 +345,71 @@ ACM (n.d.) Code of Ethics: Case studies.
 		<details>
 			<summary class="learn_more">learn more</summary>
 			<span class= "learnMore"> 
-            <p>
-           UML has been advantageous amongst software developers, as it increases understanding and communication between team members. Additionally, UML can create a notation framework for incorporating both elements of design and software engineering. This is because UML allows you to understand interactions and analyse software usability in a graphical manner (Kovacevic, 1999). 
-		   Technological trends in popular culture are seen as both advantageous and destructive. Evidently, technologies role in the health system, specifically AI, is paramount. Although, artificial intelligence supports humankind, many people remain sceptical of long term ramifications. Further investigation is needed to understand user satisfaction regarding the success of technologies, such as exoskeletons. Questions need to be raised pertaining to a user’s quality of life and whether the benefits out way any adverse effects. (Platz, 2016) Thus, human-robot interaction raises social concerns, particularly that of safety, trust and overall well-being. 
-        </p>  
-		   <h4>A Software System Design for a Self-Service Checkouts</h4>
+           <p>
+
+            History of criminal profiling
+            <br><br>
+            Suspect profiling can be dated by to the 19th century, where law enforcement used psychological methods to apprehend serial killers. During that time, investigators had access to limited resources and therefore information uncovered about a suspect was often unreliable (UCF Online, 2022). Overtime, suspect profiling has advanced significantly. For instance, an FBI agent, John Edward Douglas developed a profiling method that is still used today. “Douglas was able to research the psychopathologies and behavioural abnormalities of serious criminals, beginning the process of identifying patterns and correlating behaviours” (UCF online, 2022). 
+            Modern technology and databases are largely responsible for the improvements in forensic science. These advancements can be attributed to technologies,  such Violent Criminal Apprehension Program (ViCAP). ViCAP gathers data and identifies correlations related to violent, unlawful behaviour (UCF online, 2022). Recognising patterns of behaviour is important as it helps formulate theories, establish probable cause and predict future offenses.
+            <br><br>
+            Machine learning forensics explained
+            <br><br>
+            Machine learning forensics has derived from artificial intelligence, where computers systems are able to complete tasks that require human-like intelligence. This is implemented through “pattern recognition software that analyses vast amounts of data to predict some behaviour, which in the case of forensics is criminal intent and activity” (Mena, 2011). In order to leverage behavioural analytics, machine learning relies on historical data and current risk activity. For instance, “the outputs of most machine learning programs are conditional IF/THEN rules” (Mena, 2011). As an example,</p>
+        <img src="SuspectProfilingScreenshot.png" alt="ScreenshotSuspectProfiling">
+        <p>Both inductive and deductive approaches are used when gathering and analysing data in machine learning for suspect profiling. Inductive reasoning identifies patterns and then makes generalisations using methods, such as link analysis. Link analysis involves the use of communication channels to uncover connections between different people and consequently reveal “who knew whom, where and when” (Mena, 2011). For instance, social media data sets assist in the creation of a suspect profiles by using algorithms to discover an individual’s interests and personality. Results of link analysis are displayed in the form of a graph where there are links (edges) and circles (nodes) which represent the individual being investigated. The thickness of the line linking the different individuals, indicates the strength of their association (Mena, 2011).</p>
+		<img src="LinkAnalysis.png" alt="ScreenshotSuspectProfiling">
         <p>
-           The following design is based on Unified Modeling Language (UML) principles. UML “helps you specify, visualize, and document models of software systems, including their structure and design” to meet certain criteria (UML, 2005). The following design makes use of UML to define and display the way in which the system will function and work based on classes and their relationships.
-        </p>
-           <h4>Self-Service system classes</h4>
-        <p>
+On the other hand, deductive reasoning involves predicting criminal behaviour based on a set of data, such as a suspect’s digital trail to deduce facts we know to be true.
+A model is established to investigate behavioural data in order to anticipate a suspect taking part in unlawful acts. This can be done by “drilling down data using such algorithms as classification and regression trees” (Mena, 2011). Regression trees can be embedded into law enforcement systems and provide a graphical demonstration of IF/THEN rules. Certain rules are put in place to classify data into groups and subgroups. For instance, a police officer involved in corrupt activities could suffer from substance abuse, which is a characteristic associated with a specific group of people.  Thus, an individual’s motivations and psychology are important when linking them to a particular crime. 
+<br><br>
+Furthermore, there is an additional nature of profiling, where the individual’s characteristics are found but the person is still unknown. In this situation, an investigator needs to search the database to identify an individual who matches the profile (Miller, 2019).
+<br><br>
+The importance of database access
+<br><br>
+Law enforcement machine learning resources allow police to make inferences according to specific criteria. It is known that “high volume crimes, such as theft are more amenable to profiling” than more violent, less common crimes, such as murder because of access to larger data sets (Miller, 2019). Additionally, it is easier to identify suspects that are repeat offenders as specific data is already held regarding previous crimes. Thus, database access and integration across numerous jurisdictions greatly supports profiling. 
+<br><br>
+Advantages of machine learning in suspect profiling
+<br><br>
+There is a enormous amount of criminal records, which when sifted through manually to identify repeat offenders,  takes up a mass amount of time and are hard for the human mind to discern. Machine learning tools provide an effective, accurate, less time consuming process to analyse data to generate predictions (Munasinghe and Perara, 2015). Additionally, machine learning tools have no personal nature or feelings towards an investigation and are therefore not subject to personal bias. 
+<br><br>
+Ultimately, machine learning tools can be used advantageously for crimes that are under investigation, by using algorithms and applying them to datasets to create a profile based on gender, race, age, education and so forth. For instance, text mining can be viewed as a preventative machine learning tool to protect a system or  the general public from being compromised. 
+<br><br>
+Text mining involves the extraction of desired keywords from large amounts of content. After extraction, machine learning tools are aware of how the keywords relate to one another and can analyse results and identify emerging trends (Goyal, Gupta etc., 2020). As an example, the famous Unabomber case made use of forensic linguistics to catch the perpetrator. The Unabomber would plant explosive devices at his desired location and send letters to the FBI. The perpetrator was known for not leaving any form of physical trace at the bomb site. Nevertheless, he was eventually caught through the analysis of his writing style. “The FBI used a simple computational method looking at word frequencies, spelling variants and the like to build up a linguistic profile” (Luu, 2017). Thus, they were able to match the authors of the letters to the perpetrators letter’s to his family, along with other written documents.
+<br><br>
+Disadvantages of machine learning in suspect profiling
+<br><br>
+Machine learning in forensic science raise ethical and legal concerns, because they are subject to error. For instance:<br>
+Missing data can result in unreliable predictions. <br>
+Machine learning algorithms only draw conclusions based on the data it has access to. Taking this into account, there could be bias towards a particular demographic, which could lead to discrimination. This data can then be harvested and  be weaponised against minority groups. For instance, previous unjust arrests can result in discriminatorily monitoring individuals. This allows law enforcement to gain control over potentially innocent individuals and/or social groups. Thus, it can be said that biased data fosters human prejudice. <br>
+There is a lack of transparency involving certain predictive tools and therefore people question its role in the criminal justice system (Heaven, 2020).<br>
+Investigators must not only rely on technology, as results can be misinterpreted.  <br>
+<br><br>
+Overall, personal data monitoring should only be used when an individual has been legitimately flagged as a suspect in the eyes of the law. Thus, an individual has the right to question profile deductions if they believe they have been unjustly targeted. Additionally, the development and deployment of associated algorithms should be made transparent so that they can be subject to regular monitoring and be audited by authorities. Finally, it must be recognised that machine learning tools have limitations and must not be used independently of other law enforcement profiling tactics.
+<br><br>
+Cybercrime and automated profiling
+<br><br>
+It is important to note that suspect profiling is not limited to physical crimes. Cybercrime is highly prevalent in today’s society. Cybercrime can be understood as any fraudulent act within an online environment (Goyal, Gupta etc., 2020). For example, a denial of service attack or the deployment of a virus. Machine learning identifies a cluster of traits uniquely associated with an individual and crime incidences. For instance, a payment system’s data could be broken down until the algorithm is able to determine the primary characteristics and behaviours of a group involved in fraudulent transactions, which may include sex, employer, address, transactional history, and other social factors. Altogether, cybercrime highlights vulnerabilities within a system that make them susceptible to an attack. 
+<br><br>
+For instance, classification and clustering algorithms can be used to identify geographical hotspots that can be plotted out onto a map. Attributes associated with a particular group of individuals, could reveal that crimes such as money laundering are occurring primarily in a particular region (Custers, 2021). Consequently, law enforcement agents can focus on hotspots making crime detection more efficient.
+<br><br>
+Conclusion
+<br><br>
+In conclusion, automated computer-assisted technology can benefit and assist data management in law enforcement agencies. Thus, data is recognised as “evidence for machine learning forensics” (Mena, 2011). Evidently, AI tools effectively provide efficient profiles of suspects associated with complex crimes. Nevertheless, machine learning algorithms raise concerns about potential biases, privacy invasion and inaccurate profile creation because they are heavily automated. To address these issues, robust ethical and legal frameworks need to be executed to guide machine learning practices.  Overall, it is essential that both machine learning and human judgement are used in conjunction when profiling a potential suspect. 
+<br><br>
 
-           The customer </br>
-           The customer is the primary class. The customer class has the following attributes: name, age and whether or not they have a loyalty card. The customer’s purpose is to execute the following operation (method); to purchase an item in the store. 
-        </br> </br>
-           Loyalty card </br>
-           The loyalty card class has a strong association with the customer class. This is because the loyalty card class’s existence is dependent on the customer class. The loyalty card has the following attributes: an identity number (to make sure it associated with the correct customer) and a card number (identifies the card details).
-        </br> </br>
-           Item </br>
-           This class identifies the items available for purchase. The item has the following attributes: product name, a price and scanning method allowing you to buy the product. The item needs to be added to the shopping basket and return a status. 
-        </br></br>
-           Scanning method (interface) </br>
-           The scanning method is an interface that cannot exist without the Item class. This is because you need an item in order to scan it and add it to the virtual shopping basket. 
-        </br></br>
-           Barcode reader </br>
-           The barcode reader class operation is to scan a barcode to identify an item. This class inherits the attributes from the scanning method. This is known as a generalization relationship.
-        </br></br>
-           Integrated scales </br>
-           The integrated class operation is to weigh an item and price it accordingly. This class inherits the attributes from the scanning method. This is also an example of a generalization relationship.
-        </br></br>
-           Shopping basket </br>
-           The shopping basket class takes in an item, where an infinite number of items can be added to the virtual shopping cart.
-        </br></br>
-           Payment method (interface) </br>
-           The payment method interface allows you select a type of payment when choosing to pay for your items in the shopping cart, whilst considering if you have a loyalty card or not. If you have a loyalty card, you may receive a deduction.
-        </br></br>
-           Cash, Card, ApplePay, AndroidPay, Vouchers, Loyalty Points </br>
-           The different payment method classes allow you to purchase the items in your shopping cart and return a status based on stock availability. The stock availability is not public and can only be viewed by a staff member. These classes inherit the attributes from the base class (payment method).
-        </br></br>
-           Status </br>
-           The status class determines whether the purchase was successful or unsuccessful. If the purchase is unsuccessful due to an individual’s age or scanning error, it will return a failure reason. Alternatively, the purchase is successful and returns a Boolean to determine whether there is stock is still available in the store (true) or it needs to be reordered (untrue).
-           
-           </br>
 
-		   <img src="ClassDiagram.png" width="70%" alt="Class Diagram">
-		   
-        </p>
+References<br><br>
+<br><br>Custers, B. (2022) Profiling and predictions: Challenges in cybercrime research datafication, SSRN. Leiden University, Leiden, Netherland. Available at: https://deliverypdf.ssrn.com/delivery.php?ID=444091009006086002026089123089092092096081003083049054069100126078089007120024086081107026040056062060105068024107095093031115012043009087045068077026064121092026093023050042112123091127007006084085127124124121010071084014026075026003006120088031084009&EXT=pdf&INDEX=TRUE (Accessed: March 10, 2023). 
+<br><br>Heaven, W.D. (2020) Predictive policing algorithms are racist. they need to be dismantled., MIT Technology Review. MIT Technology Review. Available at: https://www.technologyreview.com/2020/07/17/1005396/predictive-policing-algorithms-racist-dismantled-machine-learning-bias-criminal-justice/ (Accessed:February 19, 2023). 
+<br><br>J. ICOVE, D. (no date) Automated crime profiling . Available at:https://web.eecs.utk.edu/~icove/CrimeProfiling.pdf (Accessed: February 19, 2023). 
+<br><br>M. Mariani , S. (2020) Proﬁling serial killers using multiple supervised machine learning. Available at: https://studenttheses.uu.nl/bitstream/handle/20.500.12932/37006/eindscriptie_SimonMariani.pdf?sequence=1 (Accessed: February 20, 2023). 
+<br><br>Mena, J. (2011) Machine learning forensics for law enforcement, security intelligence, Google books. Google. Available at: https://books.google.co.uk/books?hl=en (Accessed: March 10, 2023). 
+<br><br>Miller, S. (2019) Machine Learning, Ethics and Law, ACS Digital Library. AustralasianJournalofInformationSystems. Available at: https://journal.acs.org.au/index.php/ajis/article/view/1893/851 (Accessed: March 10, 2023). 
+<br><br>Rudin, C. and Sloan, M.I.T. (2015) Predictive policing: Using machine learning to detect patterns of crime, Wired. Conde Nast. Available at: https://www.wired.com/insights/2013/08/predictive-policing-using-machine-learning-to-detect-patterns-of-crime/ (Accessed: February 20, 2023). 
+<br><br>What is criminal profiling and it's role in law enforcement? (2022) UCF Online. Available at: https://www.ucf.edu/online/criminal-justice/news/what-is-criminal-profiling and-what-is-its-role-in-law-enforcement/ (Accessed: February 19, 2023). 
+  </p>
 
-        
-		
-        
-           
-        <h4>References</h4>
-	<p> 1.	Alsarraj, Altaie, Fadhil, R.A.A (2021). ‘Designing and implementing a tool to transform source code to UML diagrams’ Periodicals of Engineering and Natural Sciences. March 2021. University of Mosul Iraq. DOI: http://dx.doi.org/10.21533/pen.v9i2.1829 [Accessed 14 January 2022].
-    </br> 2.	Downey, A. (2015) Think Python: How to Think Like a Computer Scientist. 2nd ed.Needham, Massachusetts: Green Tea Press. Available from: https://greenteapress.com/thinkpython2/thinkpython2.pdf [Accessed 14 January 2022].
-    </br> 3.	Kovacevic S. (1999) UML and User Interface Modeling. In: Bézivin J., Muller PA. (eds) The Unified Modeling Language. «UML»’98: Beyond the Notation. UML 1998. Lecture Notes in Computer Science, vol 1618. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-48480-6_20
-    </br>  4.	Unified Modeling Language. (2005) What is UML. Available at: https://www.uml.org/what-is-uml.htm [Accessed 14 January 2022].
-        
-		</p>
-		<br/>
-		</span> 
+    </span> 
 		<span id="Collapse" onclick="closeDetail(this.parentElement)">▲</span>
 		</details>
 		<hr class="solid_line">
