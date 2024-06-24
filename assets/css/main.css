@@ -299,6 +299,12 @@ input, select, textarea {
 		text-align: right;
 	}
 
+.ProfilePic {
+	align-items: center;
+	display: flex;
+	margin-bottom: 20px;
+}
+
 /* Float four columns side by side */
 .column {
 	float:left;
