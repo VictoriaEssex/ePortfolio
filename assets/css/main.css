@@ -299,7 +299,7 @@ input, select, textarea {
 		text-align: right;
 	}
 
-.ProfilePic {
+#ProfilePic {
 	align-items: center;
 	display: flex;
 	margin-bottom: 20px;
