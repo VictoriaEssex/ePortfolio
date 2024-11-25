@@ -3645,6 +3645,7 @@ input, select, textarea {
 					}
 
 				}
+		
 
 		#header nav {
 			height: inherit;
@@ -3652,6 +3653,11 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
+		
+		}
+
+		#nav {
+			position: fixed;
 		}
 
 			#header nav > ul {
@@ -3670,7 +3676,7 @@ input, select, textarea {
 					#header nav > ul > li > a {
 						
 						border: 0;
-						color: #fff;
+						color: teal;
 						font-size: 1.1em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
