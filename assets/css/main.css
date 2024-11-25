@@ -3617,6 +3617,7 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		position: fixed;
 	}
 
 		#header h1 {
@@ -3656,9 +3657,7 @@ input, select, textarea {
 		
 		}
 
-		#nav {
-			position: fixed;
-		}
+		 
 
 			#header nav > ul {
 				list-style: none;
@@ -3676,11 +3675,16 @@ input, select, textarea {
 					#header nav > ul > li > a {
 						
 						border: 0;
-						color: teal;
+						color: white;
 						font-size: 1.1em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
+						padding-right: 15px;
+						background-color: #2e3842;
+						max-width: 100%;
+						
+						
 						
 					}
 					
