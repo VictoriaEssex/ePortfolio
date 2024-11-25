@@ -3671,13 +3671,14 @@ input, select, textarea {
 						
 						border: 0;
 						color: #fff;
-						font-size: 1.25em;
+						font-size: 1.1em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
-						font-weight: bold;
+						
 					}
-
+					
+				
 						#header nav > ul > li > a.menuToggle {
 							outline: 0;
 							position: relative;
