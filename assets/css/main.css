@@ -3662,18 +3662,20 @@ input, select, textarea {
 			}
 
 				#header nav > ul > li {
-					display: inline-block;
+					display: flex;
+					flex-direction: column;
 					padding: 0;
 				}
 
 					#header nav > ul > li > a {
+						
 						border: 0;
 						color: #fff;
-						display: block;
-						font-size: 0.8em;
+						font-size: 1.25em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
+						font-weight: bold;
 					}
 
 						#header nav > ul > li > a.menuToggle {
