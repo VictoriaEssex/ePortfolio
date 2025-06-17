@@ -3609,7 +3609,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #5A3232;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3729,9 +3729,7 @@ input, select, textarea {
 						margin-left: 0;
 					}
 
-		#header.alt {
-			background: transparent;
-		}
+		
 
 			#header.alt h1 {
 				pointer-events: none;
