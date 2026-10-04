@@ -89,8 +89,13 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background-color: #2e3842
 	}
+	
+	.spotlight {
+		background-color: #2e3842
+	}
+	
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -2867,43 +2872,43 @@ img.logo {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(19, 19, 19, 0.075);
+			background-color: rgba(19, 19, 19, 19, 0.075);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0, 0.15);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(0, 0, 0, 0, 0.225);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: rgba(0, 0, 0, 0, 0.3);
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			background-color: rgba(0, 0, 0, 0, 0.375);
 		}
 
 		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
+			background-color: rgba(0, 0, 0, 0, 0.45);
 		}
 
 		.spotlight:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
+			background-color: rgba(0, 0, 0, 0, 0.525);
 		}
 
 		.spotlight:nth-child(8) {
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: rgba(0, 0, 0, 0, 0.6);
 		}
 
 		.spotlight:nth-child(9) {
-			background-color: rgba(0, 0, 0, 0.675);
+			background-color: rgba(0, 0, 0, 0, 0.675);
 		}
 
 		.spotlight:nth-child(10) {
-			background-color: rgba(0, 0, 0, 0.75);
+			background-color: rgba(0, 0, 0, 0, 0, 0.75);
 		}
 
 		@media screen and (max-width: 1280px) {
